@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import { ChangeEvent, EventHandler, useCallback, useState } from 'react';
 
-export const MuiSelect = () => {
+export const MuiSelect: React.FC = () => {
   //const [country, setCountry] = useState('');
   const [countries, setCountries] = useState<string[]>([]);
 

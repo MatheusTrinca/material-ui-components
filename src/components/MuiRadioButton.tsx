@@ -9,7 +9,7 @@ import {
 import { Box } from '@mui/system';
 import { ChangeEvent, useCallback, useState } from 'react';
 
-export const MuiRadioButton = () => {
+export const MuiRadioButton: React.FC = () => {
   const [experience, setExperience] = useState('');
 
   const handleChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {

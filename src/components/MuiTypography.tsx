@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material';
 
-export const MuiTypography = () => {
+export const MuiTypography: React.FC = () => {
   return (
     <div>
       <Typography variant="h1">h1. Heading</Typography>

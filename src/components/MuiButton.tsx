@@ -14,7 +14,7 @@ import {
 } from '@mui/icons-material';
 import React, { useCallback, useState } from 'react';
 
-export const MuiButton = () => {
+export const MuiButton: React.FC = () => {
   const [formats, setFormats] = useState<string | null>(null);
 
   const handleToggleButton = useCallback(

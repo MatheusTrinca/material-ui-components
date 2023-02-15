@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import { ChangeEvent, useCallback, useState } from 'react';
 
-const MuiSwitch = () => {
+const MuiSwitch: React.FC = () => {
   const [services, setServices] = useState({
     plumber: false,
     electricist: false,

@@ -10,7 +10,7 @@ import {
 import { ChangeEvent, useState } from 'react';
 import { BookmarkBorderOutlined, BookmarkAdded } from '@mui/icons-material';
 
-export const MuiCheckbox = () => {
+export const MuiCheckbox: React.FC = () => {
   const [accepted, setAccepted] = useState(false);
 
   const [skills, setSkills] = useState({
@@ -26,8 +26,6 @@ export const MuiCheckbox = () => {
   const handleChangeSkill = (event: ChangeEvent<HTMLInputElement>) => {
     setSkills({ ...skills, [event.target.name]: event.target.checked });
   };
-
-  console.log(skills);
 
   return (
     <Box>
