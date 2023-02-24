@@ -1,5 +1,12 @@
 import './App.css';
-import { MuiSnacknar } from './components/MuiSnackbar';
+import { LocalizationProvider } from '@mui/lab';
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+import { MuiPicker } from './components/MuiPicker';
+//import { MuiLoadingButton } from './components/MuiLoadingButton';
+//import { MuiSkeleton } from './components/MuiSkeleton';
+//import { MuiProgress } from './components/MuiProgress';
+//import { MuiDialog } from './components/MuiDialog';
+//import { MuiSnacknar } from './components/MuiSnackbar';
 //import { MuiAlert } from './components/MuiAlert';
 //import { MuiTable } from './components/MuiTable';
 //import { MuiTooltip } from './components/MuiTooltip';
@@ -56,7 +63,12 @@ function App() {
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
-      <MuiSnacknar />
+      {/* <MuiSnacknar /> */}
+      {/* <MuiDialog /> */}
+      {/* <MuiProgress /> */}
+      {/* <MuiSkeleton /> */}
+      {/* <MuiLoadingButton /> */}
+      <MuiPicker />
     </div>
   );
 }

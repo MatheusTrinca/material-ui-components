@@ -9,8 +9,8 @@ export const MuiSpeedDial: React.FC = () => {
       icon={<SpeedDialIcon />}
     >
       <SpeedDialAction icon={<CopyAll />} tooltipTitle="Copiar" />
-      <SpeedDialAction icon={<Print />} tooltipTitle="Imprimiar" />
-      <SpeedDialAction icon={<Share />} tooltipTitle="Compartilhae" />
+      <SpeedDialAction icon={<Print />} tooltipTitle="Imprimir" />
+      <SpeedDialAction icon={<Share />} tooltipTitle="Compartilhar" />
     </SpeedDial>
   );
 };
